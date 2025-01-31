@@ -50,7 +50,7 @@ public class Main {
             }
             catch (ArrayIndexOutOfBoundsException e) {
                 System.out.println("\nException Occurred: " + e);
-                System.out.println("Integer in index " + i + "is not within the range of store items.\nIgnoring index " + i + " and continuing program.");
+                System.out.println("Integer in index " + i + " is not within the range of store items (0-" + (store.length-1) + ").\nIgnoring index " + i + " and continuing program.");
             }
         }
         return cart;

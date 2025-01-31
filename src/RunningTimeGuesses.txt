@@ -1,0 +1,5 @@
+printReceiptInOrder(): .005 ms because the program needs to concatenate a lot of numbers and other values to strings
+in the loop and send all that information to the system to print in the command terminal.
+
+emptyCartReverseOrder(): .003 ms because the program is not doing many calculations, it's only really sending
+information to the system to print out, with a few concatenations.
